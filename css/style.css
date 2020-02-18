@@ -44,9 +44,11 @@ h1{
 }
 h2{
     color:#916dd5;
+    font-family:'Poppins',sans-serif;
 }
 h3{
     color:#d89cf6; 
+    font-family: 'Montserrat', sans-serif;
 }
 hr{
     background-color: none;
@@ -112,8 +114,11 @@ nav a {
 }
 p{
     color:#3e206d;
+    font-family:'Poppins',sans-serif;
 }
-
+.pro{
+    text-decoration:underline;
+}
 #work-img{
     height:30%;
     width:30%;
