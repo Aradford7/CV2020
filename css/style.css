@@ -38,29 +38,43 @@ footer{
 footer nav{
     text-align: center;
     position: absolute;
-    left: 32.8%;
+    
 }
 .footer-info{
-    position: absolute;
-    left:41.3%;
-    top:70px;
-    margin:10px;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    
+}
+.footer-info p{
+    font-size: 1rem;
 }
 .footer-links{
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    margin: auto 12rem auto auto;
     
 }
 h1{
     color:#916dd5;
-    margin-top:0;
+    margin-top: 50px auto 0 auto;
+    font-size: 5.625rem;
+   
 }
 h2{
     color:#916dd5;
     font-family:'Poppins',sans-serif;
     text-align: center;
+    font-size:2.5rem;
+    font-weight:normal;
+    padding-bottom:10px;
 }
 h3{
     color:#d89cf6; 
-    font-family: 'Montserrat', sans-serif;
+    font-family:'Montserrat',sans-serif;
+    font-size:2.1rem;
+   
 }
 hr{
     background-color: none;
@@ -126,7 +140,9 @@ nav a {
 }
 p{
     color:#3e206d;
-    font-family:'Poppins',sans-serif;
+    /* font-family:'Poppins',sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+    font-size:1.4rem;
 }
 .pro{
     text-decoration:underline;
@@ -149,21 +165,27 @@ p{
     text-align: left;
     line-height: 2;
 }
+
 .test-img{
     width:18.75rem;
     float:right;
+    margin-right:30px;
 }
 .develop-img{
-    width: 18.75rem;
+    width: 19.75rem;
     float:left;
+    margin-left:30px;
 }
 .skills1{
     width:18.75rem;
     float:right;
+    margin-right:30px;
 }
 .skills2{
-    width:18.75rem;
+    width:32.75rem;
     float:left;
+    margin-right:30px;
+    
 }
 .resume-img{
     width:15.75rem;
